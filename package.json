@@ -2,6 +2,7 @@
   "name": "serverless-api",
   "version": "1.0.0",
   "dependencies": {
+    "@hubspot/api-client": "^4.1.0",
     "aws-sdk": "^2.971.0"
   }
 }

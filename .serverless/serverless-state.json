@@ -174,7 +174,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-api/dev/1629392255159-2021-08-19T16:57:35.159Z/serverless-api.zip"
+                "S3Key": "serverless/serverless-api/dev/1629453961107-2021-08-20T10:06:01.107Z/serverless-api.zip"
               },
               "Handler": "handler.create",
               "Runtime": "nodejs12.x",
@@ -192,14 +192,14 @@
               "CreateTicketLogGroup"
             ]
           },
-          "CreateTicketLambdaVersionVSz4xbthcmkI6h17VSQB2W6mWVKwpffwKVfSK0Ifgs": {
+          "CreateTicketLambdaVersion5rtGOWXFV9THvPVGjtDkFBleKibfR26CTlsBr5U": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CreateTicketLambdaFunction"
               },
-              "CodeSha256": "sEP/A5yXk71HadK+sz7ewdiTr4xjBjhYiOIkRY5OClg="
+              "CodeSha256": "iJzEsIJKZ5uUqe6AD4/C2kZJahAXhB+9sDZHMLYGDJ0="
             }
           },
           "ApiGatewayRestApi": {
@@ -320,7 +320,7 @@
               "CreateTicketLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1629392251269": {
+          "ApiGatewayDeployment1629453957528": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -383,7 +383,7 @@
           "CreateTicketLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CreateTicketLambdaVersionVSz4xbthcmkI6h17VSQB2W6mWVKwpffwKVfSK0Ifgs"
+              "Ref": "CreateTicketLambdaVersion5rtGOWXFV9THvPVGjtDkFBleKibfR26CTlsBr5U"
             },
             "Export": {
               "Name": "sls-serverless-api-dev-CreateTicketLambdaFunctionQualifiedArn"
@@ -539,7 +539,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "CreateTicketLambdaVersionVSz4xbthcmkI6h17VSQB2W6mWVKwpffwKVfSK0Ifgs"
+        "versionLogicalId": "CreateTicketLambdaVersion5rtGOWXFV9THvPVGjtDkFBleKibfR26CTlsBr5U"
       }
     },
     "configValidationMode": "warn",
@@ -561,7 +561,7 @@
     "artifact": "/home/hadrien/Desktop/SCRUM/Markentive/2nd cas/serverless-api/.serverless/serverless-api.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/serverless-api/dev/1629392255159-2021-08-19T16:57:35.159Z",
+    "artifactDirectoryName": "serverless/serverless-api/dev/1629453961107-2021-08-20T10:06:01.107Z",
     "artifact": "serverless-api.zip"
   }
 }
