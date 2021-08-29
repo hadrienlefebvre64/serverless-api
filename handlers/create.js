@@ -21,7 +21,7 @@ async function createHubspotTicket(ticket) {
 
     const hubspot = require('@hubspot/api-client');
 
-    const hubspotClient = new hubspot.Client({"apiKey": "eu1-4686-1b46-46df-b390-e4bf38cf3efa"});
+    const hubspotClient = new hubspot.Client({"apiKey": "APIKEY"});
 
     const properties = {
         "hs_pipeline": ticket.hs_pipeline,
